@@ -1,0 +1,56 @@
+body{
+  background-image: url("sell.jpg");
+  background-position: center;
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+h1{
+  margin-left: 650px;
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+
+
+
+.addetail {
+  font-family: 'IM Fell DW Pica SC', serif;
+  box-sizing: border-box;
+  border: 3px solid white;
+  border-radius: 40px;
+  width: 65%;
+  margin: 36px 343px;
+  padding-left: 70px;
+  background-color: black;
+  color: white;
+  padding-bottom: 70px;
+  opacity: 0.6;
+
+
+
+}
+
+h4{
+  font-family: 'IM Fell DW Pica SC', serif;
+  text-decoration: underline;
+}
+
+.place{
+
+  margin-top: 20px;
+}
+input[type=text]{
+  font-family: 'IM Fell DW Pica SC', serif;
+  height: 47px;
+  width: 42%;
+  border-radius: 50px;
+}
+#state,#city,#sc                                               {
+  margin-left: 10px;
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+#btn{
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+
+
+}

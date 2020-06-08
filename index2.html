@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+    <meta charset="utf-8">
+    <title>corona live update</title>
+
+  </head>
+  <style>
+    *{
+      margin:0px;
+      padding:0px;
+    }
+    #map{
+      height:100vh;
+      width:100vw
+    }
+
+  </style>
+  <body>
+
+    <div id='map'></div>
+
+  </body>
+
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiY29vbHBpbmt6eiIsImEiOiJjazhrZnBrdGUwMTRsM2ZvMXF0bGdqbGcwIn0.0QNRTQaBNuyE7CVa9pmTuQ';
+
+
+  var map = new mapboxgl.Map({
+    container: 'map',
+
+    style: 'mapbox://styles/mapbox/dark-v10',
+      zoom: 2
+
+});
+
+
+
+
+
+
+
+
+</script>
+<script src="index2.js"></script>
+
+</html>
